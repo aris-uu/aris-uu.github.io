@@ -1,0 +1,189 @@
+/* ==========================================================================
+   HOMEPAGE — Pink Academic Theme
+   ========================================================================== */
+
+/*
+   Hero Banner
+   ========================================================================== */
+
+.hero-banner {
+  position: relative;
+  width: calc(100% + 2em);
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-top: -1em;
+  margin-bottom: 2em;
+  border-radius: $border-radius;
+  overflow: hidden;
+  background: var(--hero-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+
+  @include breakpoint($large) {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 280px;
+
+    @include breakpoint($medium) {
+      max-height: 320px;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5em 2em;
+    text-align: center;
+    background: linear-gradient(transparent, rgba(252, 228, 236, 0.85));
+  }
+
+  &__title {
+    font-family: $serif;
+    font-size: $type-size-1;
+    font-weight: 600;
+    color: var(--global-text-color);
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  &__subtitle {
+    font-family: $serif;
+    font-style: italic;
+    font-size: $type-size-4;
+    color: var(--global-link-color);
+    margin: 0.25em 0 0;
+  }
+}
+
+/*
+   Hello / Greeting Section
+   ========================================================================== */
+
+.hello-section {
+  margin-bottom: 2em;
+
+  &__title {
+    font-family: $serif;
+    font-size: $type-size-2;
+    font-weight: 600;
+    color: var(--global-link-color);
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+    .heart {
+      color: var(--accent-heart);
+    }
+  }
+
+  p {
+    font-size: 1em;
+    line-height: 1.7;
+    color: var(--global-text-color);
+
+    a {
+      color: var(--global-link-color);
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px dashed var(--global-link-color);
+
+      &:hover {
+        border-bottom-style: solid;
+      }
+    }
+  }
+}
+
+/*
+   Feature Cards
+   ========================================================================== */
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+
+  @include breakpoint($small) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.feature-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: $border-radius;
+  padding: 1.5em;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 24px rgba(194, 24, 91, 0.12);
+  }
+
+  &__icon {
+    font-size: 1.3em;
+    color: var(--global-link-color);
+    margin-bottom: 0.5em;
+    display: inline-block;
+  }
+
+  &__title {
+    font-family: $serif;
+    font-size: $type-size-4;
+    font-weight: 600;
+    color: var(--global-text-color);
+    margin: 0 0 0.5em;
+    display: inline;
+    margin-left: 0.4em;
+  }
+
+  &__description {
+    font-size: $type-size-6;
+    line-height: 1.6;
+    color: var(--global-text-color);
+    margin-bottom: 1em;
+    margin-top: 0.75em;
+  }
+
+  &__link {
+    font-size: $type-size-6;
+    font-weight: 600;
+    color: var(--global-link-color);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    transition: gap 0.2s ease;
+
+    &:hover {
+      gap: 0.6em;
+      text-decoration: none;
+    }
+
+    .arrow {
+      transition: transform 0.2s ease;
+    }
+
+    &:hover .arrow {
+      transform: translateX(3px);
+    }
+  }
+}

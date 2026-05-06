@@ -242,9 +242,10 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 4px;
-        background: var(--global-border-color);
+        height: 3px;
+        background: var(--global-link-color);
         width: 100%;
+        border-radius: 2px;
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);

@@ -1,48 +1,65 @@
 /* ==========================================================================
-    DEFAULT THEME - LIGHT VERSION
+    DEFAULT THEME - LIGHT VERSION (Pink Academic)
     ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #2f7f93;
-$gray                       : #7a8288;
+$primary-color              : #c2185b;
+$gray                       : #9e8a8e;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$danger-color               : #e53935;
+$info-color                 : #c2185b;
+$notice-color               : #9e8a8e;
+$success-color              : #66bb6a;
+$warning-color              : #ffa726;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
+$border-radius              : 12px;
+$box-shadow                 : 0 2px 8px rgba(194, 24, 91, 0.08);
+$global-transition          : all 0.25s ease-in-out;
+$masthead-height            : 64px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
-$sidebar-link-max-width     : 250px;
+$sidebar-link-max-width     : 260px;
 $sidebar-screen-min-width   : 1024px;
 
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
+    --global-bg-color                   : #fff9fb;
+    --global-footer-bg-color            : #fce4ec;
+    --global-border-color               : #f8bbd0;
+    --global-dark-border-color          : #f48fb1;
+    --global-code-background-color      : #fff0f3;
     --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
+    --global-fig-caption-color          : #{$dark-gray};
+    --global-link-color                 : #d81b60;
+    --global-link-color-hover           : #ad1457;
+    --global-link-color-visited         : #e91e63;
+    --global-masthead-link-color        : #5d4037;
+    --global-masthead-link-color-hover  : #c2185b;
+    --global-text-color                 : #4a3035;
     --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
-}
+    --global-thead-color                : #fce4ec;
+    --global-toc-bg-color               : #fff5f7;
 
+    /* Custom pink theme variables */
+    --pink-50                           : #fce4ec;
+    --pink-100                          : #f8bbd0;
+    --pink-200                          : #f48fb1;
+    --pink-300                          : #f06292;
+    --pink-400                          : #ec407a;
+    --pink-500                          : #e91e63;
+    --pink-600                          : #d81b60;
+    --pink-700                          : #c2185b;
+    --pink-800                          : #ad1457;
+    --pink-900                          : #880e4f;
+    --card-bg                           : #ffffff;
+    --card-border                       : #f8bbd0;
+    --card-shadow                       : 0 2px 12px rgba(194, 24, 91, 0.08);
+    --hero-bg                           : #fce4ec;
+    --accent-heart                      : #e91e63;
+}
