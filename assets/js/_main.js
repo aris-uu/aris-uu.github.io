@@ -93,30 +93,30 @@ $(document).ready(function () {
   // If the user hasn't chosen a theme, follow the OS preference
   setTheme();
   window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener("change", (e) => {
-          if (!localStorage.getItem("theme")) {
-            setTheme(e.matches ? "dark" : "light");
-          }
-        });
+    .addEventListener("change", (e) => {
+      if (!localStorage.getItem("theme")) {
+        setTheme(e.matches ? "dark" : "light");
+      }
+    });
 
   // Enable the theme toggle
   $('#theme-toggle').on('click', toggleTheme);
 
   // Enable the sticky footer
-  var bumpIt = function () {
-    $("body").css("padding-bottom", "0");
-    $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-  }
-  $(window).resize(function () {
-    didResize = true;
-  });
-  setInterval(function () {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
-    }}, 250);
-  var didResize = false;
-  bumpIt();
+  // var bumpIt = function () {
+  //   $("body").css("padding-bottom", "0");
+  //   $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
+  // }
+  // $(window).resize(function () {
+  //   didResize = true;
+  // });
+  // setInterval(function () {
+  //   if (didResize) {
+  //     didResize = false;
+  //     bumpIt();
+  //   }}, 250);
+  // var didResize = false;
+  // bumpIt();
 
   // FitVids init
   fitvids();
