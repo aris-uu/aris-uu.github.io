@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "your name ♡"
-subtitle                 : "mathematician"
+title                    : "arisu "
+subtitle                 : ""
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Personal website of a mathematician"
+name                     : &name "arisu"
+description              : &description "personal website"
 url                      : https://aris-uu.github.io
 baseurl                  : ""
 repository               : "aris-uu/aris-uu.github.io"
@@ -23,26 +23,26 @@ repository               : "aris-uu/aris-uu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   avatar           : "profile.png"
-  name             : "Your Name"
-  pronouns         : # example: "she/her"
+  name             : "arisu"
+  pronouns         : "she/they"
   bio              : "Mathematician"
-  location         : "City, Country"
-  employer         : "Your University"
+  location         : "Bandung, Indonesia"
+  employer         : "Institut Teknologi Bandung"
   uri              : # URL
-  email            : "youremail@university.edu"
+  email            : "arisuuarisuu@gmail.com"
 
   # Academic websites
   arxiv            : # URL
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  orcid            : "https://orcid.org/yourorcidurl"
+  googlescholar    : 
+  orcid            : 
 
   # Repositories and software development
-  github           : "yourusername"
+  github           : "aris-uu"
 
   # Social media
   bluesky          : # username
   linkedin         : # username
-  twitter          : # username
+  twitter          : "langlerangle"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
