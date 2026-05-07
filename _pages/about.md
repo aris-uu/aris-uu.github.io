@@ -12,12 +12,13 @@ redirect_from:
 </div>
 
 <div class="hello-section">
-  <h1 class="hello-section__title">Hello! <span class="heart">♡</span></h1>
-  <p>I am a mathematician interested in <a href="#">analysis</a>, <a href="#">geometry</a>, and their interactions.</p>
-  <p>I am currently a PhD student at Your University, advised by Prof. Advisor Name.</p>
+  <h1 class="hello-section__title">hiii~ <span class="heart">♡</span></h1>
+  <p>I am a third year undergraduate student in mathematics at Institut Teknologi Bandung (ITB)</p>
+  <p>My interests are in category theory, type theory, and proof assistants such as Lean.</p>
+  <p>Other nonmathematical interests include computer science, linguistics, animanga, and japanese music.</p>
 </div>
 
-<div class="feature-cards">
+<!-- <div class="feature-cards">
   <div class="feature-card">
     <span class="feature-card__icon"><i class="fa-solid fa-flask" aria-hidden="true"></i></span>
     <span class="feature-card__title">Research</span>
@@ -38,4 +39,4 @@ redirect_from:
     <p class="feature-card__description">I write notes and expository pieces on math topics I enjoy.</p>
     <a href="/blog/" class="feature-card__link">Learn more <span class="arrow">→</span></a>
   </div>
-</div>
+</div> -->

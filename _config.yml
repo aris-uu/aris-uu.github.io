@@ -22,10 +22,10 @@ repository               : "aris-uu/aris-uu.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "arisu"
   pronouns         : "she/they"
-  bio              : "Mathematician"
+  bio              : "世界で一番かわいい数学少女"
   location         : "Bandung, Indonesia"
   employer         : "Institut Teknologi Bandung"
   uri              : # URL
@@ -42,7 +42,12 @@ author:
   # Social media
   bluesky          : # username
   linkedin         : # username
+  facebook         : "61587853701392"
   twitter          : "langlerangle"
+  twitter2         : "aris_uu"
+  instagram        : "arisu_math"
+  youtube          : "aris_uu"
+
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
