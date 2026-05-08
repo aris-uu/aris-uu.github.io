@@ -11,24 +11,4 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Mathematics, Your University, 2028 (expected)
-* M.S. in Mathematics, Your University, 2024
-* B.S. in Mathematics, Your University, 2022
-
-Research Interests
-======
-* Geometric Analysis
-* Partial Differential Equations
-* Differential Geometry
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Bachelor's Degree in Mathematics, Institut Teknologi Bandung (ITB), 2023-2027 (expected). GPA: 3.99/4.00
