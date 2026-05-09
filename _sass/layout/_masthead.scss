@@ -112,3 +112,10 @@
 .masthead__menu-item.selected a i {
   color: var(--global-link-color);
 }
+
+/* Hide hamburger button on desktop */
+@include breakpoint($large) {
+  .greedy-nav button {
+    display: none;
+  }
+}

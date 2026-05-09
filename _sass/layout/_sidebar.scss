@@ -238,6 +238,11 @@
     }
   }
 
+  /* Hide on mobile — social links shown separately below article */
+  @media screen and (max-width: #{$sidebar-screen-min-width - 1px}) {
+    display: none;
+  }
+
   @include breakpoint($large) {
     display: block;
   }
@@ -332,5 +337,56 @@
   /* Pink-tinted icons in the sidebar */
   .fas, .fab, .far, .fal, .ai {
     color: var(--global-link-color);
+  }
+}
+
+/*
+   Mobile social links — shown after article on small screens only
+   ========================================================================== */
+
+.mobile-social-links {
+  margin-top: 1.5em;
+  padding-top: 1.25em;
+  border-top: 1px solid var(--global-border-color);
+
+  /* Hide on desktop — social links appear in the fixed sidebar */
+  @media screen and (min-width: $sidebar-screen-min-width) {
+    display: none;
+  }
+
+  .author__urls {
+    display: block;
+    position: static;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    cursor: default;
+
+    li {
+      white-space: nowrap;
+      padding: 0.2em 0;
+    }
+
+    a {
+      display: block;
+      margin-bottom: 4px;
+      padding: 2px 0;
+      color: inherit;
+      font-size: $type-size-6;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        color: var(--global-link-color);
+      }
+    }
+
+    /* Pink-tinted icons */
+    .fas, .fab, .far, .fal, .ai {
+      color: var(--global-link-color);
+    }
   }
 }

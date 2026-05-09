@@ -106,4 +106,8 @@ layout: default
       </div>
     </div>
   {% endif %}
+
+  {% if page.author_profile or layout.author_profile %}
+    {% include mobile-social.html %}
+  {% endif %}
 </div>
