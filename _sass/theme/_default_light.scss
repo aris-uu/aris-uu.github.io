@@ -2,7 +2,7 @@
     DEFAULT THEME - LIGHT VERSION (Pink Academic)
     ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #c2185b;
+$primary-color              : #ff459c;
 $gray                       : #9e8a8e;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
@@ -18,9 +18,9 @@ $warning-color              : #ffa726;
 
 /* Other basic settings for the template */
 $border-radius              : 12px;
-$box-shadow                 : 0 2px 8px rgba(194, 24, 91, 0.08);
-$global-transition          : all 0.25s ease-in-out;
-$masthead-height            : 64px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $sidebar-link-max-width     : 260px;
@@ -31,20 +31,20 @@ $sidebar-screen-min-width   : 1024px;
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #fff9fb;
     --global-footer-bg-color            : #fce4ec;
-    --global-border-color               : #f8bbd0;
+    --global-border-color               : #df437c;
     --global-dark-border-color          : #f48fb1;
     --global-code-background-color      : #fff0f3;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : #{$dark-gray};
-    --global-link-color                 : #d81b60;
-    --global-link-color-hover           : #ad1457;
+    --global-link-color                 : #df437c;
+    --global-link-color-hover           : #ff3e92;
     --global-link-color-visited         : #e91e63;
-    --global-masthead-link-color        : #5d4037;
-    --global-masthead-link-color-hover  : #c2185b;
+    --global-masthead-link-color        : #df437c;
+    --global-masthead-link-color-hover  : #ff3e92;
     --global-text-color                 : #4a3035;
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #fce4ec;
-    --global-toc-bg-color               : #fff5f7;
+    --global-text-color-light           : #555555;
+    --global-thead-color                : #{$lighter-gray};
+}
 
     /* Custom pink theme variables */
     --pink-50                           : #fce4ec;

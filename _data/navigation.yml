@@ -1,6 +1,7 @@
 # Navigation links in the header
 
 main:
+    
   - title: "CV"
     url: /cv/
     icon: "fa-solid fa-file-lines"

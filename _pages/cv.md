@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Education
+
 * Bachelor's Degree in Mathematics, Institut Teknologi Bandung (ITB), 2023-2027 (expected). GPA: 3.99/4.00
 
 # Academic Experience
@@ -53,7 +54,3 @@ redirect_from:
 ## Comic Frontier
 
 # Awards and Competitions
-
-
-
-

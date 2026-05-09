@@ -157,14 +157,8 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 3px solid var(--pink-200, var(--global-border-color));
+      border: 3px solid var(--global-link-color);
       box-shadow: 0 4px 16px rgba(194, 24, 91, 0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-      &:hover {
-        transform: scale(1.03);
-        box-shadow: 0 6px 20px rgba(194, 24, 91, 0.15);
-      }
     }
   }
 }

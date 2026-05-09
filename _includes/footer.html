@@ -1,10 +1,8 @@
 {% include base_path %}
 
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} arisu ♡ <br />
-  Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>, Theme modified from <a
-    href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a
-    href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. <br />
-  pfp by <a href="https://twitter.com/lazuardifebr">@lazuardifebr</a>, header by my cousin
 
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  pfp by <a href="https://twitter.com/lazuardifebr">@lazuardifebr</a>, header by my cousin <br/>
+  Site last updated {{ "now" | date: '%Y-%m-%d' }}
 </div>
