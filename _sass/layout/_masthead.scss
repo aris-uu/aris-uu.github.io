@@ -128,8 +128,8 @@
 .nav-toggle__label {
   display: none;
 
-  @media screen and (max-width: #{$large - 1px}) {
-    display: flex;
+  @include breakpoint(max-width $large) {
+    display: flex !important;
     align-items: center;
     position: absolute;
     right: 1em;
@@ -171,21 +171,21 @@
 
 
 
-/* Hide nav items on mobile; keep persist items (brand + theme toggle) visible */
-@media screen and (max-width: #{$large - 1px}) {
-  .masthead__menu-item.nav-item {
-    display: none;
+/* Hide nav items on mobile; persist items (brand + theme toggle) remain visible */
+.masthead__menu-item.nav-item {
+  @include breakpoint(max-width $large) {
+    display: none !important;
   }
 }
 
 /* Mobile nav dropdown */
 .mobile-nav-menu {
-  display: none; /* hidden by default on all sizes */
+  display: none;
   list-style: none;
   margin: 0;
   padding: 0;
 
-  @media screen and (max-width: #{$large - 1px}) {
+  @include breakpoint(max-width $large) {
     position: absolute;
     top: 100%;
     left: 0;
@@ -223,24 +223,25 @@
   }
 }
 
-/* Show mobile menu when checkbox is checked */
-@media screen and (max-width: #{$large - 1px}) {
-  #nav-toggle:checked ~ .mobile-nav-menu {
-    display: block;
+/* Show mobile menu when checkbox is checked (mobile only) */
+#nav-toggle:checked ~ .mobile-nav-menu {
+  @include breakpoint(max-width $large) {
+    display: block !important;
+  }
+}
+
+/* Animate hamburger to X when checked */
+#nav-toggle:checked ~ .nav-toggle__label .navicon {
+  background: transparent;
+
+  &::before {
+    top: 0;
+    transform: rotate(45deg);
   }
 
-  #nav-toggle:checked ~ .nav-toggle__label .navicon {
-    background: transparent;
-
-    &::before {
-      top: 0;
-      transform: rotate(45deg);
-    }
-
-    &::after {
-      top: 0;
-      transform: rotate(-45deg);
-    }
+  &::after {
+    top: 0;
+    transform: rotate(-45deg);
   }
 }
 
