@@ -9,56 +9,48 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Bachelor's Degree in Mathematics, Institut Teknologi Bandung (ITB), 2023-2027 (expected). GPA: 3.99/4.00
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Academic Experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## [CIMPA School in Optimization, Convex Analysis, and Geometric Structures](https://www.cimpa.info/en/ecoles/optimization-convex-analysis-and-geometric-structures)
+* 29 January 2026 - 11 February 2026
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## [3-Day School on Harmonic and Functional Analysis](https://bermatematika.net/2025/07/24/3-day-school-on-harmonic-and-functional-analysis-2025/)
+* 18-20 December 2025
+
+## Domain Expansion HIMATIKA ITB
+* July-September 2025
+* Reading group on _Proofs from THE BOOK_
+
+## Polymath Jr. 2025
+* June-September 2025
+* Research experiences for undergraduates on Lattice Models and Representation Theory under the advisement of Prof. Ben Brubaker.
+
+## Assistant Grader
+* Foundations of Mathematics
+* Mathematics IA
+* Mathematics IID
+* Multivariable Calculus
+
+## Lab Assistant
+* Mathematics Simulation and Computation Laboratory
+* Introduction to Differential Equations Laboratory
+
+## Xena Summer Projects 2023
+
+## HoTTEST Summer School 2022
+
+# Organizational Experience
+
+## HIMATIKA ITB
+
+## Mathematical Challenge Festival (MCF) ITB 2026
+
+## Genshiken ITB
+
+## Comic Frontier
+
+# Awards and Competitions
