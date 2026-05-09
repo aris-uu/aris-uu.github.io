@@ -128,7 +128,7 @@
 .nav-toggle__label {
   display: none;
 
-  @include breakpoint(max-width $large) {
+  @media screen and (max-width: 924px) {
     display: flex !important;
     align-items: center;
     position: absolute;
@@ -172,8 +172,8 @@
 
 
 /* Hide nav items on mobile; persist items (brand + theme toggle) remain visible */
-.masthead__menu-item.nav-item {
-  @include breakpoint(max-width $large) {
+@media screen and (max-width: 924px) {
+  .masthead__menu-item.nav-item {
     display: none !important;
   }
 }
@@ -185,7 +185,7 @@
   margin: 0;
   padding: 0;
 
-  @include breakpoint(max-width $large) {
+  @media screen and (max-width: 924px) {
     position: absolute;
     top: 100%;
     left: 0;
@@ -224,8 +224,8 @@
 }
 
 /* Show mobile menu when checkbox is checked (mobile only) */
-#nav-toggle:checked ~ .mobile-nav-menu {
-  @include breakpoint(max-width $large) {
+@media screen and (max-width: 924px) {
+  #nav-toggle:checked ~ .mobile-nav-menu {
     display: block !important;
   }
 }

@@ -235,14 +235,14 @@
   /* Mobile: hidden — social links are shown via mobile-social.html below the article */
   display: none;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: 925px) {
     display: block;
     position: relative;
   }
 
   button {
     margin-bottom: 0;
-    @include breakpoint($large) {
+    @media screen and (min-width: 925px) {
       display: none;
     }
   }
@@ -342,7 +342,7 @@
   border-top: 1px solid var(--global-border-color);
 
   /* Hide on desktop — social links appear in the fixed sidebar */
-  @include breakpoint($large) {
+  @media screen and (min-width: 925px) {
     display: none;
   }
 

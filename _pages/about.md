@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="hero-banner">
-  <img src="/images/hero-banner.jpg" alt="Mathematical hero banner" class="hero-banner__image" onerror="this.style.display='none'">
+  <img src="/images/madohomu-hott.jpeg" alt="Madohomu (Madoka and Homura from Puella Magi Madoka Magica) proving that the universe is not a set in HoTT." class="hero-banner__image" onerror="this.style.display='none'">
 </div>
 
 <div class="hello-section">
