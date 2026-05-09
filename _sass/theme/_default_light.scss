@@ -31,7 +31,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #fff9fb;
     --global-footer-bg-color            : #fce4ec;
-    --global-border-color               : #f8bbd0;
+    --global-border-color               : #df437c;
     --global-dark-border-color          : #f48fb1;
     --global-code-background-color      : #fff0f3;
     --global-code-text-color            : #{$darker-gray};
@@ -39,10 +39,10 @@ $sidebar-screen-min-width   : 1024px;
     --global-link-color                 : #df437c;
     --global-link-color-hover           : #ff3e92;
     --global-link-color-visited         : #e91e63;
-    --global-masthead-link-color        : #5d4037;
-    --global-masthead-link-color-hover  : #c2185b;
+    --global-masthead-link-color        : #df437c;
+    --global-masthead-link-color-hover  : #ff3e92;
     --global-text-color                 : #4a3035;
-    --global-text-color-light           : #{$light-gray};
+    --global-text-color-light           : #555555;
     --global-thead-color                : #{$lighter-gray};
 }
 
