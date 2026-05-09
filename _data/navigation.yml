@@ -13,6 +13,10 @@ main:
     url: /projects/
     icon: "fa-solid fa-diagram-project"
 
+  - title: "Notes"
+    url: /math-notes/
+    icon: "fa-solid fa-book-open"
+
   - title: "Misc"
     url: /misc/
     icon: "fa-solid fa-star"
