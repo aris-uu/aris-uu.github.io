@@ -10,6 +10,20 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+  // Set theme as early as possible to avoid flash of unstyled content (FOUC)
+  (function() {
+    var storedTheme = localStorage.getItem("theme");
+    var defaultTheme = document.documentElement.getAttribute("data-theme");
+    var browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    var useTheme = storedTheme || defaultTheme || browserPref;
+    
+    if (useTheme === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else if (useTheme === "light") {
+      document.documentElement.removeAttribute("data-theme");
+    }
+  })();
 </script>
 
 <!-- For all browsers -->
