@@ -31,4 +31,4 @@ solutions to ONMIPA-PT 2025 mathematics problems. currently in progress.
 
 ## Some Reports and Slides
 - **Teorema Arzelà–Ascoli** (Indonesian) [pdf](/files/Arzela%20Ascoli.pdf)
-- **Pigeonhole Principle and Double Counting** [pdf](/files/pigeonhole_principle_and_double_counting.pdf)
+- **Pigeonhole Principle and Double Counting** [pdf](/files/Pigeonhole%20Principle%20and%20Double%20Counting%20(English).pdf)
