@@ -21,7 +21,7 @@ main:
     url: /projects/
     icon: "fa-solid fa-diagram-project"
 
-  - title: "Notes"
+  - title: "Notes <i class='fa-solid fa-up-right-from-square fa-sm' style='padding-left: 2px;'></i>"
     url: /math-notes/
     icon: "fa-solid fa-book-open"
 
