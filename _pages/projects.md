@@ -30,5 +30,5 @@ wip. basically just socratic dialogue on math but yuri.
 solutions to ONMIPA-PT 2025 mathematics problems. currently in progress.
 
 ## Some Reports and Slides
-- **Teorema Arzelà–Ascoli**
-- **Pigeonhole Principle and Double Counting**
+- **Teorema Arzelà–Ascoli** (Indonesian) [pdf](/files/Arzela%20Ascoli.pdf)
+- **Pigeonhole Principle and Double Counting** [pdf](/files/pigeonhole_principle_and_double_counting.pdf)
